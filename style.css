@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
+
+#backg1 {
+  color: white;
+  background: rgb(41, 161, 43);
+  background: linear-gradient(56deg, rgb(38, 156, 40) 0%, rgb(88, 226, 139) 100%);
+  width: auto;
+  height: 450px;
+}
+
+
+#intro {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 100px;
+  margin-top: 70px;
+  margin-right: 500px;
+}
+
+.menu1 {
+  margin-left: 1080px;
+  margin-top: -55px;
+}
+
+.livro1 {
+  width: 220px;
+  height: 220px;
+  margin-left: 500px;
+  margin-top: -250px;
+  position: absolute;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+a.agenda {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 5px;
+  text-decoration: none;
+}
+
+a.agenda:hover {
+  text-decoration: none;
+  position: relative;
+  top: 1px;
+}
+
+a.tarefa {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 16px;
+  text-decoration: none;
+}
+
+a.tarefa:hover {
+  text-decoration: none;
+  position: static;
+  top: 1px;
+}
+
+a.login {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 21px;
+  display: inline-block;
+  cursor: pointer;
+  color: #17d460;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 32px;
+}
+
+a.login:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: #17d460;
+  /* border: 1px solid white; */
+  color: white;
+}
+
+a.calend {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 25px;
+  display: inline-block;
+  cursor: pointer;
+  color: #0ba012;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 15px 32px;
+  /* transform: translateY(-30px) */
+}
+
+a.calend:hover {
+  padding: 14px 31px;
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: #17d460;
+  border: 1px solid white;
+  color: white;
+}
+
+/* ----Login---- */
+
+.backgLogin {
+  color: white;
+  background: rgb(41, 161, 43);
+  background: linear-gradient(56deg, rgb(38, 156, 40) 0%, rgb(88, 226, 139) 100%);
+  width: 400px;
+  height: 700px;
+
+}
+
+.menu2 {
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+.loginPass {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #15cf88;
+  background: linear-gradient(56deg, rgb(48, 180, 50) 0%, rgb(88, 226, 139) 100%);
+  border-radius: 21px;
+  display: inline-block;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 150px 200px;
+  margin-left: 530px;
+  transform: translateY(-630px)
+}
+
+a.a1 {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  position: relative;
+  top: 45px;
+  right: -10px;
+}
+
+a.a1:hover {
+  text-decoration: none;
+  position: relative;
+  top: 46px;
+}
+
+a.register {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 21px;
+  display: inline-block;
+  cursor: pointer;
+  color: #17d460;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 20px;
+  position: relative;
+  top: 12px;
+  right: 1px;
+}
+
+a.register:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: #17d460;
+  border: 1px solid white;
+  color: white;
+}
+
+a.a2 {
+  text-decoration: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  position: relative;
+  top: 30px;
+  right: -10px;
+}
+
+a.a2:hover {
+  text-decoration: none;
+  position: relative;
+  top: 31px;
+}
+
+a.a3 {
+  text-decoration: none;
+  font-weight: bold;
+  background-color: #ffffff;
+  border-radius: 21px;
+  display: inline-block;
+  cursor: pointer;
+  color: #17d460;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 10px 32px;
+
+}
+
+a.a3:hover {
+  text-decoration: none;
+  transition: 0.3s;
+  background-color: #17d460;
+  border: 1px solid white;
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  color: #17d460;
+  padding: 10px 25px;
+  font-size: 16px;
+  margin: 4px;
+  border: none;
+  outline: none;
+  align-self: center;
+}
+
+.btn:hover {
+  transition: 0.3s;
+  background-color: #17d460;
+  border: 1px solid white;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.form input {
+  height: 45px;
+  border: none;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  padding: 1px 30px;
+  margin: 5px;
+  outline: none;
+}
